@@ -1,0 +1,200 @@
+.login {
+  .login-card {
+    height: 300px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 185, 185);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+    .login-card-title {
+      font-size: 20px;
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .login-card-input {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      .login-card-input-label {
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
+      .login-card-input-field {
+        height: 30px;
+        border: 1px solid rgb(187, 185, 185);
+        border-radius: 5px;
+        padding: 5px;
+        outline: none;
+      }
+
+      .login-card-input-button {
+        margin-top: 20px;
+        height: 30px;
+        border: 1px solid rgb(187, 185, 185);
+        border-radius: 5px;
+        padding: 5px;
+        outline: none;
+        background-color: #fff;
+        cursor: pointer;
+        &:hover {
+          background-color: rgb(187, 185, 185);
+        }
+      }
+    }
+    .info-text {
+      p {
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 30px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.dashboard {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .dashboard-card {
+    height: 60vh;
+    width: 340px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 185, 185);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    .all-topic-list {
+      max-height: 40vh;
+      overflow: scroll;
+    }
+  }
+}
+
+.add-topic {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .add-topic-card {
+    height: 60vh;
+    width: 340px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 185, 185);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    .topic-name {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      .topic-name-label {
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: left;
+      }
+      .topic-name-input {
+        width: 100%;
+        height: 30px;
+        border: 1px solid rgb(187, 185, 185);
+        border-radius: 5px;
+        padding: 5px;
+        outline: none;
+        margin-top: 10px;
+      }
+    }
+
+    .topic-content-box {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 10px;
+      .topic-content-label {
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: left;
+      }
+      .topic-content {
+        width: 100%;
+        height: 200px;
+        border: 1px solid rgb(187, 185, 185);
+        border-radius: 5px;
+        padding: 5px;
+        outline: none;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .review-card {
+    height: 60vh;
+    width: 340px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 185, 185);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+    .review-card-title {
+      font-size: 1rem;
+      font-weight: 700;
+      text-align: left;
+    }
+    .review-card-content {
+      margin-top: 10px;
+      font-size: 1rem;
+      font-weight: 500;
+      text-align: left;
+      .review-text-card {
+      position: sticky;
+      z-index: 10;
+        .category-selection-card {
+          position: absolute;
+          height: 180px;
+          width: 180px;
+          right: 0;
+          left: 0;
+          margin-top: -210px;
+          background-color:   rgb(69, 82, 223);
+          border-radius: 50px 50px 50px 0px;
+          border: 1px solid rgb(187, 185, 185);
+          padding: 20px;
+          .category-card{
+            height: 40px;
+            width: 40px;
+            color: white;
+            border-radius: 10px;
+            background-color: green;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5px;
+         }
+        }
+
+        .text{
+          margin-top: 10px;
+          font-size: 1rem;
+          font-weight: 500;
+          text-align: left;
+          word-wrap: break-word;
+        }
+        
+      }
+    }
+  }
+}
